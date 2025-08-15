@@ -13,7 +13,7 @@
     "name": {
       "description": "El nombre único del componente.(kebab-case , snake_case, CamelCase).",
       "type": "string",
-      "pattern": "^[a-z0-9]+(-[a-zA-Z0-9]+)*$"
+      "pattern": "^[a-zA-Z0-9]+(-[a-zA-Z0-9]+)*$"
     },
     "description": {
       "description": "Una breve descripción del componente.",
