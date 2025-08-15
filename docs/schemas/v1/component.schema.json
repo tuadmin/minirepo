@@ -49,7 +49,7 @@
       "description": "Define un mapa de nombres de paquetes a rangos de versión semántica.",
       "type": "object",
       "patternProperties": {
-        "^[a-z0-9\\-@/.]+$": {
+        "^[a-zA-Z0-9\\-@/.]+$": {
           "type": "string",
           "description": "Rango de versión semántica (ej. '^1.2.0')."
         }
